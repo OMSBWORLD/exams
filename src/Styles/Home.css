@@ -1,0 +1,594 @@
+@font-face {
+    font-family: 'Clash Display Variable';
+    src: url("./ClashDisplay-Variable.ttf");
+  }
+  @font-face {
+    font-family: 'Clash Display Variable';
+    src: url("./ClashDisplay-Semibold.otf");
+  }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+.home-grand-one{
+    margin-top: 10px;
+    width: 100%;
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.home-parent-one{
+    width: 90%;
+    min-height: 80vh;
+    display: flex;
+    justify-content: space-between;
+}
+.home-one-one{
+    width: 50%;
+    line-height: 1;
+}
+.pra, .pre{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 50px;
+    font-weight: lighter;
+    color: #002099;
+    font-family: 'Clash Display Variable';
+}
+.exel-head{
+    width: 100%;
+    height: 180px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    font-size: 50px;
+    color: #002099;
+    font-family: 'Clash Display Variable';
+}
+.b-p{
+    width: 50%;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: space-between;
+}
+.b1, .b2{
+    width: 100%;
+    height: 200px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.exel-head button{
+    color: '#676e82';
+    background: '#ffffff';
+    border: 1px solid #676e82;
+    border-radius: 15px;
+    background: #ffffff;
+    color:  #676e82;
+}
+.home-one-two{
+    width: 45%;
+}
+.home-one-one p{
+    font-size: 20px;
+    color: gray;
+    line-height: 1.5;
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+}
+.home-one-bottom{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+.home-one-bottom button{
+    font-weight: 600;
+    border-radius: 4px;
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+}
+.home-two{
+    margin-top: 20px;
+    width: 100%;
+    height: 220px;
+    background: #002099;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home-two-sub{
+    width: 65%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff;
+}
+.home-two-sub-sub{
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    font-size: 10px;
+}
+#sub-sub{
+    display: flex;
+    justify-content: space-between;
+    width: 160px;
+}
+.sub-sub{
+    margin-left: 50px;
+}
+#sub-sub1{
+    display: flex;
+    justify-content: space-between;
+    width: 130px;
+}
+#sub{
+    height: 100px;
+    border-left: 3px solid #002099;
+}
+.home-two-sub-sub h3{
+    color: #002099;
+    font-size: 20px;
+    font-family: 'Clash Display Variable';
+}
+.home-two-sub-sub p{
+    font-size: 10px;
+    word-spacing: 1px;
+    color: grey;
+}
+.lab{
+    margin-top: 50px;
+    font-size: 30px;
+    font-family: 'Clash Display Variable';
+    text-align: center;
+    color: #0B2239;
+
+}
+.home-grand-three{
+    margin-top: 100px;
+    width: 100%;
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+}
+.home-parent-three{
+    width: 70%;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.three-one, .three-two, .three-three, .three-four{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.words{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+}
+.words h3{
+    font-size: 30px;
+    color: #000513;
+
+}
+.words p{
+    width: 60%;
+   margin-top: 20px;
+   color: #000513;
+}
+.linee{
+    width: 70px;
+    height: 1px;
+    background-color: black;
+    margin-top: 20px;
+    margin-right: 250px;
+}
+.home-four{
+    margin-top: 100px;
+    width: 100%;
+    height: 270px;
+    background: #002099;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    line-height: 2;
+    font-family: 'Clash Display Variable';
+}
+.home-four-sub{
+    width: 80%;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #1D3797;
+    backdrop-filter: blur(15px);
+    border-radius: 24px;
+}
+.home-four-sub-sub{
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+}
+#four-sub-sub{
+    width: 20%;
+    font-size: 30px;
+}
+.four-sub-sub{
+    width: 80%;
+}
+.four-sub-sub p{
+    text-decoration: underline;
+    font-family: 'Mulish', sans-serif;
+}
+#four-sub{
+    height: 100px;
+    border-left: 3px solid #ffffff;
+}
+.home-four-sub-sub h3{
+    color: #ffffff;
+    font-size: 25px;
+    font-family: 'Clash Display Variable';
+}
+.home-four-sub-sub p{
+    font-size: 10px;
+    word-spacing: 1px;
+    color: #ffffff;
+}
+.home-five{
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+}
+.home-five h1{
+    width: 25%;
+    color: #00070F;
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: 'Clash Display Variable';
+}
+.home-five p{
+    color: #00070FCC 80%;
+    font-family: 'Mulish', sans-serif;
+
+}
+.video{
+    margin-top: 100px;
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+}
+video{
+    border-radius: 20px;
+    height: 300px;
+    width: 900px;
+    background-color: #000513;
+}
+
+@media screen and (max-width: 500px) {
+    .home-grand-one{
+        margin-top: 20px;
+        width: 100%;
+        min-height: 50vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .home-parent-one{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        
+    }
+    .home-one-one{
+        width: 100%;
+        line-height: 1;
+    }
+    .p-p{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .pra, .pre{
+        width: 70%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 30px;
+        color: #002099;
+    }
+    .pre img, .pra img{
+        width: 80px;
+    }
+    .exel-head{
+        width: 100%;
+        min-height: 30vh;
+        display: flex;
+        flex-direction: column;
+        justify-content:space-between;
+        align-items: center;
+        font-size: 40px;
+        color: #002099;
+    }
+    .b-p{
+        width: 70%;
+        height: 120px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: space-between;
+    }
+    .b1, .b2{
+        width: 100%;
+        height: 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .exel-head button{
+        color: '#676e82';
+        background: '#ffffff';
+        border: 1px solid #676e82;
+        border-radius: 15px;
+        background: #ffffff;
+        color:  #676e82;
+    }
+    .home-one-two{
+        width: 45%;
+        display: none;
+    }
+    .home-one-bottom{
+        margin-top: 40px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 68%;
+        padding-left: 70px;
+    }
+    .home-one-bottom button{
+        font-weight: bold;
+        border-radius: 4px;
+    }
+    .home-p{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .home-one-one p{
+        width: 90%;
+        font-size: 16px;
+        color:#676e82;
+        line-height: 1.2;
+    }
+    .home-two{
+        margin-top: 20px;
+        width: 100%;
+        min-height: 60vh;
+        background: #002099;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .home-two-sub{
+        width: 60%;
+        min-height: 50vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background: #ffffff;
+    }
+    .home-two-sub-sub{
+        display: flex; 
+        flex-direction: column; 
+        justify-content: center;
+        align-items: center;
+        width: 200px;
+       
+    }
+    #sub-sub{
+        display: flex;
+        justify-content: space-between;
+        width: 160px;
+    }
+    .sub-sub{
+        margin-left: 50px;
+    }
+    #sub-sub1{
+        display: flex;
+        justify-content: space-between;
+        width: 130px;
+    }
+    #sub{
+        height: 100px;
+        border: none;
+        border-top: 3px solid #002099;
+    }
+    .home-two-sub-sub h3{
+        color: #002099;
+        font-size: 16px;
+        font-family: 'Clash Display Variable';
+    }
+    .home-two-sub-sub p{
+        font-size: 10px;
+        word-spacing: 1px;
+        color: grey;
+    }
+    .lab{
+        margin-top: 50px;
+        text-align: center;
+        font-size: 30px;
+    }
+    .home-grand-three{
+        margin-top: 100px;
+        width: 100%;
+        min-height: 50vh;
+        display: flex;
+        justify-content: center;
+    }
+    .home-parent-three{
+        width: 100%;
+        min-height: 50vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .three-one, .three-three{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+    .three-two, .three-four{
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+    .words{
+        width: 100%;
+        height: 170px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .home-four{
+        margin-top: 100px;
+        width: 100%;
+        min-height: 90vh;
+        background: #002099;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: #ffffff;
+        line-height: 2;
+        font-family: 'Clash Display Variable';
+    }
+    .home-four h1{
+        width: 80%;
+        text-align: center;
+        line-height: 1;
+        margin-bottom: 10px;
+    }
+    .home-four-sub{
+        width: 80%;
+        min-height: 70vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background: #1D3797;
+        backdrop-filter: blur(15px);
+        border-radius: 24px;
+    }
+    .home-four-sub-sub{
+        display: flex;  
+        justify-content: center;
+        align-items: center;
+        width: 200px;
+    }
+    #four-sub-sub{
+        width: 20%;
+        font-size: 30px;
+    }
+    .four-sub-sub{
+        width: 80%;
+    }
+    .four-sub-sub p{
+        text-decoration: underline;
+        font-family: 'Mulish', sans-serif;
+    }
+    #four-sub{
+        height: 100px;
+        border: none;
+        border-top: 3px solid #ffffff;
+    }
+    .home-four-sub-sub h3{
+        color: #ffffff;
+        font-size: 25px;
+        font-family: 'Clash Display Variable';
+    }
+    .home-four-sub-sub p{
+        font-size: 10px;
+        word-spacing: 1px;
+        color: #ffffff;
+    }
+    .home-five{
+        width: 100%;
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-items: center;
+    }
+    .home-five h1{
+        width: 80%;
+        color: #00070F;
+        text-align: center;
+        margin-bottom: 10px;
+        font-family: 'Clash Display Variable';
+    }
+    .home-five p{
+        width: 80%;
+        color: #00070FCC 80%;
+        font-family: 'Mulish', sans-serif;
+        text-align: center;
+    }
+    .video{
+        margin-top: 100px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-items: center;
+    }
+    video{
+        border-radius: 20px;
+        height: 300px;
+        width: 700px;
+        background-color: #000513;
+    }
+    
+    
+}

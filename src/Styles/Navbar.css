@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    text-decoration: none;
+}
+button, a{
+    cursor: pointer;
+}
+.nav-grand{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-parent{
+    width: 90%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-one{
+    width: 70%;
+}
+.nav-two, .mobile-link{
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+}
+.bars, .times{
+    display: none;
+ }
+.nav-two-one{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-two-one a{
+    color: #002099;
+}
+.nav-two-two{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-two-two button{
+    border-radius: 4px;
+}
+@media screen and (max-width: 500px){
+    .nav-grand{
+        width: 100%;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 1px solid #676e82;
+    }
+    .nav-parent{
+        width: 90%;
+        height: 80px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .nav-one{
+        width: 70%;
+        
+    }
+    .nav-two{
+        display: none;
+        justify-content: space-between;
+        width: 40%;
+    }
+    .mobile-link{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+        height: 400px;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        background: #002099;
+    }
+    .nav-two-one{
+        width: 100%;
+        height: 200px;
+        padding-left: 50px;
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: start;
+    }
+    .nav-two-one a{
+        color: #ffffff;
+    }
+    .nav-two-two{
+        width: 100%;
+        height: 100px;
+        padding-left: 50px;
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        
+    }
+    .bars, .times{
+        display: flex;
+        height: 40px;
+        width: 100px;
+        color: #676e82;
+     }
+}

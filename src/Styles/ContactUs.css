@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: 'Mulish', sans-serif;
+}
+.contact-two-grand{
+    margin-top: 50px;
+    width: 100%;
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-two-parent{
+    width: 80%;
+    min-height: 70vh;
+    display: flex;
+    justify-content: space-between;
+}
+.contact-two-one{
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    line-height: 2;
+}
+
+.contact-two-sub2{
+    width: 50%;
+    padding-left: 50px;
+    border-left: 5px solid #002099;
+    line-height: 1.9em;
+}
+.location{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:  #002099;
+}
+.sub2 a{
+    color: #0B2239;
+    margin-left: 10px;
+}
+.contact-two-two{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.contact{
+    display: flex;
+    justify-content: space-between;
+}
+#one{
+    width: 48%;
+}
+.one{
+    display: flex;
+    flex-direction: column;
+    line-height: 3;
+}
+.wale{
+    width: 80%;
+}
+.one input, textarea{
+    border: none;
+    border-bottom: 1px solid #DDDDDD;
+    outline: none;
+}
+.contact-butt button{
+    height: 40px;
+    width: 120px;
+    border: none;
+    margin-top: 20px;
+ }
+ ::placeholder{
+    color: #5c5c5c;
+    opacity: 0.3; 
+ } 
+ .contact-last-parent{
+    width: 100%;
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .contact-last{
+    width: 80%;
+    min-height: 30vh;
+    display: flex;
+    align-items: center;
+    background: #000707;
+    color: #ffffff;
+ }
+ .contact-last div{
+    margin-left: 100px;
+    line-height: 2;
+ }
+ @media screen and (max-width: 500px) {
+    .contact-two-grand{
+        margin-top: 50px;
+        width: 100%;
+        min-height: 50vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .contact-two-parent{
+        width: 80%;
+        min-height: 50vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .contact-two-one{
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        
+    }
+    .contact-two-sub2{
+        width: 100%;
+        margin-top: 50px;
+        padding-left: 50px;
+         border-left: 5px solid #002099; 
+        line-height: 1.9em;
+    }
+
+    .wale{
+        margin-top: 30px;
+        font-size: 15px;
+        width: 100%;
+    }
+    .location{
+        width: 30%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .contact-two-two{
+        margin-top: 100px;
+        width: 100%;
+        min-height: 60vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+    .contact{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    #one{
+        width: 100%;
+    }
+    .one{
+        display: flex;
+        flex-direction: column;
+        line-height: 2;
+    }
+    .one input, textarea{
+        border: none;
+        border-bottom: 1px solid  #DDDDDD;
+        ;
+        outline: none;
+    }
+    .contact-butt button{
+        height: 40px;
+        width: 120px;
+        border: none;
+        margin-top: 20px;
+     }
+     ::placeholder{
+        color: #5c5c5c;
+     }
+     .contact-last-parent{
+        width: 100%;
+        min-height: 50vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     }
+     .contact-last{
+        width: 98%;
+        display: flex;
+        align-items: center;
+        background: #000707;
+        color: #ffffff;
+     }
+     .contact-last div{
+        margin: 20px;
+        
+     }
+ }
