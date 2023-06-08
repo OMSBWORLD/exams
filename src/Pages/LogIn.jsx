@@ -11,8 +11,8 @@ function LogIn(){
         <div>
              <div className='s-nav-parent'>
                 <div className='s-nav'>
-                    <div className='nav-one'><Link to='/'><img src={home}/></Link></div>
-                    <div>Don’t have an account? Sign up <Link to='/register'>here</Link>  </div>
+                    <div className='nav-one2'><Link to='/'><img src={home}/></Link></div>
+                    <div>Don’t have an account? Sign up <Link to='/register'>  here</Link>  </div>
                 </div>
             </div>
             <div className='login-parent'>

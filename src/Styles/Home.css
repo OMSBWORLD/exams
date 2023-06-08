@@ -94,6 +94,8 @@
     border-radius: 4px;
     font-family: 'Mulish', sans-serif;
     font-style: normal;
+    width: 160px;
+    height: 45px; 
 }
 .home-two{
     margin-top: 20px;
@@ -325,11 +327,11 @@ video{
         display: flex;
         justify-content: space-between;
         align-items: center;
-        font-size: 30px;
+        font-size: 28px;
         color: #002099;
     }
     .pre img, .pra img{
-        width: 80px;
+        width: 70px;
     }
     .exel-head{
         width: 100%;
@@ -342,7 +344,7 @@ video{
         color: #002099;
     }
     .b-p{
-        width: 70%;
+        width: 75%;
         height: 120px;
         margin-top: 10px;
         margin-bottom: 20px;
@@ -375,12 +377,14 @@ video{
         display: flex;
         justify-content: space-between;
         align-items: center;
-        width: 68%;
+        width: 60%;
         padding-left: 70px;
     }
     .home-one-bottom button{
         font-weight: bold;
         border-radius: 4px;
+        width: 140px;
+        height: 35px; 
     }
     .home-p{
         display: flex;
@@ -396,7 +400,7 @@ video{
     .home-two{
         margin-top: 20px;
         width: 100%;
-        min-height: 60vh;
+        min-height: 65vh;
         background: #002099;
         display: flex;
         justify-content: center;
@@ -404,7 +408,7 @@ video{
     }
     .home-two-sub{
         width: 60%;
-        min-height: 50vh;
+        min-height: 55vh;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -461,11 +465,14 @@ video{
     }
     .home-parent-three{
         width: 100%;
-        min-height: 50vh;
+        min-height: 60vh;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
+    }
+    .home-parent-three img{
+        width: 80%;
     }
     .three-one, .three-three{
         width: 100%;
@@ -473,7 +480,7 @@ video{
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
-        margin-bottom: 30px;
+        margin-bottom: 50px;
     }
     .three-two, .three-four{
         width: 100%;
@@ -481,7 +488,7 @@ video{
         flex-direction: column-reverse;
         justify-content: space-between;
         align-items: center;
-        margin-bottom: 30px;
+        margin-bottom: 50px;
     }
     .words{
         width: 100%;
@@ -490,6 +497,7 @@ video{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin-top: 50px;
     }
     .home-four{
         margin-top: 100px;

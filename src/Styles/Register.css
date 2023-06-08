@@ -116,17 +116,26 @@
         align-items: center;
     }
     .s-nav{
-        width: 90%;
+        width: 100%;
         height: 50px;
         display: flex;
         justify-content: space-between;
         align-items: center;
         font-family: 'Mulish', sans-serif;
+        
+    }
+    .nav-one2{
+        width: 50%;
+      
     }
     .s-nav div:nth-child(2){
         font-size: 10px;
         width: 50%;
         color: grey;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      
     }
     .s-nav a{
         color: #1178FF;

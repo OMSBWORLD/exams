@@ -20,11 +20,6 @@ import {BsGooglePlay,} from 'react-icons/bs'
 import {BsTelegram} from 'react-icons/bs'
 import {FaWhatsapp} from 'react-icons/fa'
 
-
-
-
-
-
 function Home(){
     return(
         <div className='home-main'>
@@ -46,8 +41,8 @@ function Home(){
                             <p >Welcome to the Exams.Africa, Exams Africa is a platform designed specifically for Africans looking to practise for upcoming exams. Our platform offers a comprehensive collection of past exam questions from a wide range of subjects, allowing users to test their knowledge and improve their skills.</p>
                         </div>
                         <div className='home-one-bottom'>
-                        <Link to='/register'><button style={{background: '#002099',color: '#ffffff', width: '160px', height:'45px', border: 'none',}}>Get Started </button> </Link>
-                        <Link to='/login'><button style={{background: '#ffffff',color: '#002099', width: '160px', height: '45px',  border: '3px solid #002099'}}>Start Practising</button> </Link>
+                        <Link to='/register'><button style={{background: '#002099',color: '#ffffff',  border: 'none',}}>Get Started </button> </Link>
+                        <Link to='/login'><button style={{background: '#ffffff',color: '#002099', border: '1px solid #002099'}}>Start Practising</button> </Link>
                         </div>
                     </div>
                     <div className='home-one-two'>

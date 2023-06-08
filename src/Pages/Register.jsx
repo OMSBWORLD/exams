@@ -20,8 +20,8 @@ function Register(){
         <div>
             <div className='s-nav-parent'>
                 <div className='s-nav'>
-                    <div className='nav-one'><Link to='/'><img src={home}/></Link></div>
-                    <div>Already have an account? Login<Link to='/login'> here</Link>  </div>
+                    <div className='nav-one2'><Link to='/'><img src={home}/></Link></div>
+                    <div>Already have an account? Login <Link to='/login'>   here</Link>  </div>
                 </div>
             </div>
             <div className='sign-parent'>
