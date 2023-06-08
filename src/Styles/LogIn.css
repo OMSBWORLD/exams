@@ -5,13 +5,15 @@
 }
 .login-parent{
     width: 100%;
-    min-height: 100vh;
+    min-height: 90vh;
+   
     display: flex;
     justify-content: center;
 }
 .login{
     width: 90%;
     display: flex;
+    
 }
 .login-one{
     width: 28%;
