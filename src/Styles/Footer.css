@@ -84,13 +84,13 @@ footer{
         font-family: 'Mulish';
         font-style: normal;
         color: #ffffff;
-        font-size: 14px;
+        font-size: 12px;
     }
-    .last-sub-two h3{
-        font-size: 13px;
+    .last-sub-two h3, .last-sub-three h3, .last-sub-one h3, .last-sub-four h3{
+        font-size: 12px;
     }
     .last-sub-three p{
-        font-size: 13px;
+        font-size: 12px;
     }
     .last-two{
         text-align: center;
