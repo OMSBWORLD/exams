@@ -41,8 +41,10 @@ function Home(){
                             <p >Welcome to the Exams.Africa, Exams Africa is a platform designed specifically for Africans looking to practise for upcoming exams. Our platform offers a comprehensive collection of past exam questions from a wide range of subjects, allowing users to test their knowledge and improve their skills.</p>
                         </div>
                         <div className='home-one-bottom'>
+                            <div className='b-butt'> 
                         <Link to='/register'><button style={{background: '#002099',color: '#ffffff',  border: 'none',}}>Get Started </button> </Link>
                         <Link to='/login'><button style={{background: '#ffffff',color: '#002099', border: '1px solid #002099'}}>Start Practising</button> </Link>
+                            </div>
                         </div>
                     </div>
                     <div className='home-one-two'>

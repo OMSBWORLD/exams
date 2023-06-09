@@ -372,19 +372,25 @@ video{
         width: 45%;
         display: none;
     }
+    .b-butt{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     .home-one-bottom{
         margin-top: 40px;
         display: flex;
         justify-content: space-between;
         align-items: center;
-        width: 60%;
-        padding-left: 70px;
+        width: 100%; 
     }
     .home-one-bottom button{
         font-weight: bold;
         border-radius: 4px;
-        width: 115px;
+        width: 105px;
         height: 35px; 
+        margin-left: 15px;
     }
     .home-p{
         display: flex;
