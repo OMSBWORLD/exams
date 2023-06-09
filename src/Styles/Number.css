@@ -60,64 +60,8 @@
     font-size: 16px;
     border-left: none;
 }
-@media screen and (max-width: 900px) {
-    .number-grand{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-    }
-    .number{
-        display: flex;
-        width: 100%; 
-    }
-    .number-one{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-    }
-    .number-one select{
-        width: 20px;
-        height: 10px;
-        border: none;
-        outline: none;
-        position: absolute;
-        left: 141px;
-}
-.number-two{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 250px;
-    height: 50px;
-}
-.number-two-one{
-    margin-right: 20px;
-}
-.number-two-one img{
-    width: 25px;
-    height: 15px;
-}
-.number-two-two{
-    display: flex;
-    align-items: center;
-    align-items: center;
-    border: 1px solid  #E0E0E0; 
-    height: 35px;
-    border-radius: 4px;
-    border-right: none;
-}
-.number-two-three{
-    width: 100%;
-}
-.number-two-three input{
-    width: 95%;
-    height: 35px;
-    margin-top: 10px;
-    border-left: none;
-}
-}
-@media screen and (max-width: 500px) {
+
+@media screen and (max-width: 780px) {
     .number-grand{
         display: flex;
         justify-content: center;

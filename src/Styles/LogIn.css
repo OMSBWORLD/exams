@@ -76,75 +76,8 @@ label{
   font-family: 'Mulish', sans-serif; 
   text-decoration: underline;
 }
-@media screen and (max-width: 900px) {
-    .login-parent{
-        width: 100%;
-        min-height: 100vh;
-        display: flex;
-        justify-content: center;
-    }
-    .login{
-        width: 90%;
-        display: flex;
-        flex-direction: column;
-    }
-    .login-one{
-        width: 100%;
-    }
-    .login-one h1{
-        width: 100%;
-    }
-    .login-two{
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-    }
-    .login-sub-one{
-        display: flex ;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        height: 60vh;
-        width: 100%;
-    }
-    .login-sub-two{
-        width: 90%;
-        display: flex;
-        justify-content: space-between;
-    }
-    .login-two input{
-        height: 40px;
-        width: 60%;
-        outline: none;
-        border: 1px solid #E0E0E0;
-        border-radius: 4px;
-        margin-bottom: 30px;
-        font-size: 18px;
-    }
-    .login button{
-        border-radius: 4px;
-    }
-    label{
-        width: 60%;
-        margin-bottom: 10px;
-    }
-    .forget{
-        position: absolute;
-        top: 390px;
-        left: 280px;
-        font-size: 10px;
-        color: #1178FF;
-        font-family: 'Mulish', sans-serif; 
-        text-decoration: underline;
-      }
-      .login-sub-one span{
-        position: absolute;
-        right: 120px;
-        margin-top: 20px;
-        
-    }
-}
-@media screen and (max-width: 500px) {
+
+@media screen and (max-width: 780px) {
     .login-parent{
         width: 100%;
         min-height: 100vh;
