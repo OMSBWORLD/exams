@@ -33,8 +33,8 @@ function Home(){
                         <div className='exel-head'>
                             <div className=''><h1>Excel</h1></div>
                             <div className='b-p'>
-                                <div className='b1'><button style={{width: '105px' , height: '60px'}}>JAMB -<br/> UTME</button><button style={{width: '105px', height: '60px'}}>WAEC -<br/>  SSCE</button><button style={{width: '105px' , height: '60px'}}>WAEC -<br/>  GCE</button></div>
-                                <div className='b2'><button style={{width: '210px' , height: '60px'}}>COMMON ENTRANCE <br/>  EXAM</button><button style={{width: '105px', height: '60px'}}>NECO</button></div>
+                                <div className='b1'><button style={{width: '102px' , height: '60px'}}>JAMB -<br/> UTME</button><button style={{width: '102px', height: '60px'}}>WAEC -<br/>  SSCE</button><button style={{width: '102px' , height: '60px'}}>WAEC -<br/>  GCE</button></div>
+                                <div className='b2'><button style={{width: '207px' , height: '60px'}}>COMMON ENTRANCE <br/>  EXAM</button><button style={{width: '102px', height: '60px'}}>NECO</button></div>
                             </div>
                         </div>
                         <div className='home-p'>
