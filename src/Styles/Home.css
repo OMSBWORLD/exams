@@ -293,7 +293,7 @@ video{
     width: 900px;
     background-color: #000513;
 }
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 900px) {
     .home-grand-one{
         margin-top: 20px;
         width: 100%;

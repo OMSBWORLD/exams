@@ -107,7 +107,7 @@
     flex-direction: column;
     width: 80%;
 }
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 900px) {
     .s-nav-parent{
         width: 100%;
         height: 50px;

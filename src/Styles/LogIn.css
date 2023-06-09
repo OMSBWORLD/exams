@@ -76,7 +76,7 @@ label{
   font-family: 'Mulish', sans-serif; 
   text-decoration: underline;
 }
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 900px) {
     .login-parent{
         width: 100%;
         min-height: 100vh;

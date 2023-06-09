@@ -98,7 +98,7 @@
     margin-left: 100px;
     line-height: 2;
  }
- @media screen and (max-width: 780px) {
+ @media screen and (max-width: 900px) {
     .contact-two-grand{
         margin-top: 50px;
         width: 100%;

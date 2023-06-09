@@ -152,7 +152,7 @@
     padding-right: 30px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 900px) {
   .accordion-item {
       margin-bottom: 20px; 
     }
