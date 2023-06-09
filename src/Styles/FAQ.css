@@ -18,15 +18,10 @@
   .accordion-button {
     width: 100%;
     text-align: left;
-    background-color: #f0f0f0;
     border: none;
     padding: 10px;
     cursor: pointer;
     transition: background-color 0.3s ease;
-  }
-  
-  .accordion-button:hover {
-    background-color: #e0e0e0;
   }
   .accordion-button{
     display: flex;
@@ -37,11 +32,6 @@
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     font-size: 16px;
   }
-  .accordion-button.expanded {
-    background-color: #e0e0e0;
-   
-  }
-  
   .accordion-collapse {
     overflow: hidden;
     transition: max-height 0.3s ease;
@@ -55,7 +45,7 @@
   
   .accordion-body {
     padding: 10px;
-    background-color: #f9f9f9;
+    
   }
   .new-one-parent{
     width: 100%;
@@ -170,16 +160,12 @@
       .accordion-button {
         width: 100%;
         text-align: left;
-        background-color: #f0f0f0;
         border: none;
         padding: 10px;
         cursor: pointer;
         transition: background-color 0.3s ease;
       }
       
-      .accordion-button:hover {
-        background-color: #e0e0e0;
-      }
       .accordion-button{
         display: flex;
         justify-content: space-between;
@@ -187,13 +173,9 @@
         color: #00070F;
         font-family: 'Mulish', sans-serif;
         box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-        font-size: 18px;
+        font-size: 16px;
       }
-      .accordion-button.expanded {
-        background-color: #e0e0e0;
-       
-      }
-      
+     
       .accordion-collapse {
         overflow: hidden;
         transition: max-height 0.3s ease;
@@ -207,7 +189,7 @@
       
       .accordion-body {
         padding: 10px;
-        background-color: #f9f9f9;
+        
       }
       .new-one-parent{
         width: 100%;
@@ -251,5 +233,20 @@
     }
     .faq-two-sub{
         width: 100%;
+    }
+    .faq-last{
+        width: 100%;
+        min-height: 20vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        align-items: center;
+        color: #1c0a00;
+        font-size: 20px;
+        font-style: normal;
+    }
+    .faq-last img{
+        margin-top: 10px;
+        height: 2px;
     }
 }

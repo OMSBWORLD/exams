@@ -216,12 +216,12 @@
            position: absolute;
            right: 120px;
            margin-bottom: -40px;
-           display: none;
+           display: flex;
     }
     .span2{
         position: absolute;
         right: 120px;
         margin-bottom: -110px;
-        display: none;
+        display: flex;
     }
 }

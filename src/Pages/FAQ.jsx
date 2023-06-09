@@ -77,7 +77,7 @@ function FAQ(){
                 </div>
             </div>
             <div className='faq-two-grand'>
-                <div className="col-lg-6 col-sm-6">
+                <div className=''>
                 <div className='new-one-parent'>
                     <div className='new-one'>
                     <div className={`accordion-item ${expanded ? 'expanded' : ''}`}>
