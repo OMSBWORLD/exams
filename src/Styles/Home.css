@@ -505,6 +505,9 @@ video{
         align-items: center;
         margin-top: 50px;
     }
+    .words h3{
+        font-size: 25px;
+    }
     .home-four{
         margin-top: 100px;
         width: 100%;
