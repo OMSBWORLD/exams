@@ -152,6 +152,104 @@
     padding-right: 30px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
+@media screen and (max-width: 780px) {
+  .accordion-item {
+      margin-bottom: 20px; 
+    }
+    
+    .accordion-button {
+      width: 100%;
+      text-align: left;
+      border: none;
+      padding: 10px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    
+    .accordion-button{
+      display: flex;
+      justify-content: space-between;
+      height: 40px;
+      color: #00070F;
+      font-family: 'Mulish', sans-serif;
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      font-size: 16px;
+    }
+   
+    .accordion-collapse {
+      overflow: hidden;
+      transition: max-height 0.3s ease;
+      max-height: 0;
+    }
+    
+    .accordion-collapse.show {
+      max-height: 200px; 
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+    
+    .accordion-body {
+      padding: 10px;
+      
+    }
+    .new-one-parent{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  .new-one{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+  }
+  #wd{
+      width: 95%;
+  }
+  .faq-one{
+      width: 100%;
+      height: 380px;
+      display: flex;
+      align-items: center;
+      background: #002099;
+      color: #ffffff;
+      font-family: 'Clash Display Variable';
+  }
+  .faq-one div{
+      margin-left: 50px;
+      margin-right: 20px;
+  }
+  .faq-one div p{
+      font-family: 'Mulish', sans-serif;
+      width: 100%;
+  }
+  .faq-two{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+  }
+  .faq-two-sub{
+      width: 100%;
+  }
+  .faq-last{
+      width: 100%;
+      min-height: 20vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: end;
+      align-items: center;
+      color: #1c0a00;
+      font-size: 20px;
+      font-style: normal;
+  }
+  .faq-last img{
+      margin-top: 10px;
+      height: 2px;
+  }
+}
 @media screen and (max-width: 500px) {
     .accordion-item {
         margin-bottom: 20px; 
