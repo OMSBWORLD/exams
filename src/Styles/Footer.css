@@ -69,7 +69,7 @@ footer{
     .last{
         margin-top: 100px;
         width: 100%;
-        min-height: 70vh;
+        min-height: 55vh;
         background: #00070F;
         color: #ffffff;
     }
@@ -77,7 +77,7 @@ footer{
         display: flex;
         align-items: center;
         justify-content: space-evenly;
-        min-height: 35vh;
+        min-height: 30vh;
         line-height: 2;
         font-family: 'Mulish';
         font-style: normal;
@@ -98,23 +98,36 @@ footer{
         text-align: center;
         height: 70px;
     }
+    .last-three-parent{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
     .last-three{
+        width: 80%;
         text-align: center;
-        min-height: 20vh;
+        min-height: 15vh;
         font-family: 'Mulish';
         font-style: normal;
     }
     .last-four-parent{
         width: 100%;
+        min-height: 5vh;
         display: flex;
         justify-content: center;
         align-items: center;
     }
     .last-four{
         width: 50%;
+        max-width: 150px;
         display: flex;
         justify-content: space-between;
         align-items: center;
+        
+    }
+    .last-four a{
+        font-size: 20px;
     }
     
     footer{

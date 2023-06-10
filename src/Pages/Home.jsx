@@ -26,15 +26,17 @@ function Home(){
             <div className='home-grand-one'>
                 <div className='home-parent-one'>
                     <div className='home-one-one'>
+                        <div className='p-p-parent'>
                         <div className='p-p'>
                             <div className='pra'> <h1>Practice</h1> <img src={e1} alt="" /> </div>
                             <div className='pre'> <img src={e2} alt="" /> <h1>Prepare</h1></div>
                         </div>
+                        </div>
                         <div className='exel-head'>
                             <div className=''><h1>Excel</h1></div>
                             <div className='b-p'>
-                                <div className='b1'><button style={{width: '102px' , height: '60px'}}>JAMB -<br/> UTME</button><button style={{width: '102px', height: '60px'}}>WAEC -<br/>  SSCE</button><button style={{width: '102px' , height: '60px'}}>WAEC -<br/>  GCE</button></div>
-                                <div className='b2'><button style={{width: '207px' , height: '60px'}}>COMMON ENTRANCE <br/>  EXAM</button><button style={{width: '102px', height: '60px'}}>NECO</button></div>
+                                <div className='b1'><button style={{width: '105px' , height: '60px'}}>JAMB -<br/> UTME</button><button style={{width: '105px', height: '60px'}}>WAEC -<br/>  SSCE</button><button style={{width: '105px' , height: '60px'}}>WAEC -<br/>  GCE</button></div>
+                                <div className='b2'><button style={{width: '210px' , height: '60px'}}>COMMON ENTRANCE <br/>  EXAM</button><button style={{width: '105px', height: '60px'}}>NECO</button></div>
                             </div>
                         </div>
                         <div className='home-p'>

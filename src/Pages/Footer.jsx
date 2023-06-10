@@ -38,7 +38,9 @@ function Footer(){
                         </div>
                     </div>
                     <div className='last-two'><img src={home}/></div>
-                    <div className='last-three'>We Will Open The World Of Knowledge For You! This is the latest online examination system you will ever need!<br/> With our easy online exam site, you will set up your own engaging exams that fit any kind of difficulty level and be a <br/>learning expert.</div>
+                    <div className='last-three-parent'>
+                        <div className='last-three'>We Will Open The World Of Knowledge For You! This is the latest online examination system you will ever need! With our easy online exam site, you will set up your own engaging exams that fit any kind of difficulty level and be a learning expert.</div>
+                    </div>
                     <div className='last-four-parent'>
                     <div className='last-four'>
                         <Link to='https://www.linkedin.com/company/exams-africa/'><FaLinkedinIn/></Link>

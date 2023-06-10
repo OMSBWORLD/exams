@@ -29,6 +29,15 @@
     width: 50%;
     line-height: 1;
 }
+.p-p-parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.p-p{
+    width: 100%;
+    
+}
 .pra, .pre{
     display: flex;
     justify-content: space-between;
@@ -49,7 +58,8 @@
     font-family: 'Clash Display Variable';
 }
 .b-p{
-    width: 50%;
+    width: 70%;
+    max-width: 350px;
     height: 120px;
     display: flex;
     flex-direction: column;
@@ -316,6 +326,7 @@ video{
     }
     .p-p{
         width: 100%;
+        max-width: 450px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -406,7 +417,7 @@ video{
     .home-two{
         margin-top: 20px;
         width: 100%;
-        min-height: 65vh;
+        min-height: 70vh;
         background: #002099;
         display: flex;
         justify-content: center;
@@ -414,7 +425,8 @@ video{
     }
     .home-two-sub{
         width: 60%;
-        min-height: 55vh;
+        max-width: 300px;
+        min-height: 60vh;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -537,6 +549,7 @@ video{
     }
     .home-four-sub{
         width: 80%;
+        max-width: 300px;
         min-height: 70vh;
         display: flex;
         flex-direction: column;
