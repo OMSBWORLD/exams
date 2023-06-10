@@ -39,8 +39,10 @@ function Home(){
                                 <div className='b2'><button style={{width: '210px' , height: '60px'}}>COMMON ENTRANCE <br/>  EXAM</button><button style={{width: '105px', height: '60px'}}>NECO</button></div>
                             </div>
                         </div>
+                        <div className='home-p-parent'>
                         <div className='home-p'>
                             <p >Welcome to the Exams.Africa, Exams Africa is a platform designed specifically for Africans looking to practise for upcoming exams. Our platform offers a comprehensive collection of past exam questions from a wide range of subjects, allowing users to test their knowledge and improve their skills.</p>
+                        </div>
                         </div>
                         <div className='home-one-bottom'>
                             <div className='b-butt'> 
