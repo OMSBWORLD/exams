@@ -97,7 +97,7 @@ function FAQ(){
                             </h2>
                         <div className={`accordion-collapse ${expanded ? 'show' : ''}`} >
                             <div className="accordion-body">
-                            Exams Africa is a platform designed to help Africans prepare prepare for exams.<br/> We offer a comprehensive collection of past exam questions from a wide range of <br/> subjects, allowing users to test their knowledge and improve their skills.
+                            Exams Africa is a platform designed to help Africans prepare prepare for exams. We offer a comprehensive collection of past exam questions from a wide range of  subjects, allowing users to test their knowledge and improve their skills.
                             </div>
                         </div>
                     </div>
@@ -118,7 +118,7 @@ function FAQ(){
                             </h2>
                         <div className={`accordion-collapse ${expanded1 ? 'show' : ''}`}>
                             <div className="accordion-body">
-                            Exams Africa is designed for anyone who is looking to practise for upcoming <br/> exams. This includes students preparing for high school or college exams, as well <br/> as professionals looking to advance their careers.
+                            Exams Africa is designed for anyone who is looking to practise for upcoming  exams. This includes students preparing for high school or college exams, as well  as professionals looking to advance their careers.
                             </div>
                         </div>
                     </div>
@@ -141,7 +141,7 @@ function FAQ(){
                             </h2>
                         <div className={`accordion-collapse ${expanded2 ? 'show' : ''}`} >
                             <div className="accordion-body">
-                            Our platform offers exam questions from a variety of subjects, including math,<br/> science, English, and history. We are constantly updating our collection to ensure<br/>that we have the most current and relevant exam questions available.
+                            Our platform offers exam questions from a variety of subjects, including math, science, English, and history. We are constantly updating our collection to ensure that we have the most current and relevant exam questions available.
                             </div>
                         </div>
                     </div>
@@ -162,7 +162,7 @@ function FAQ(){
                             </h2>
                         <div className={`accordion-collapse ${expanded3 ? 'show' : ''}`}>
                             <div className="accordion-body">
-                            Exams.Africa isn't free but comes with a reasonable subscription module. We  <br/>believe that everyone should have access to the resources they need to succeed,  <br/>regardless of their financial situation.
+                            Exams.Africa isn't free but comes with a reasonable subscription module. We  believe that everyone should have access to the resources they need to succeed,  regardless of their financial situation.
                             </div>
                         </div>
                     </div>
@@ -185,7 +185,7 @@ function FAQ(){
                             </h2>
                         <div className={`accordion-collapse ${expanded4 ? 'show' : ''}`}>
                             <div className="accordion-body">
-                            Yes, our platform includes a tracking system that allows users to monitor their  <br/>progress and identify areas where they need to improve. This allows users to  <br/>focus their studying and maximize their exam performance.
+                            Yes, our platform includes a tracking system that allows users to monitor their  progress and identify areas where they need to improve. This allows users to  focus their studying and maximize their exam performance.
                             </div>
                         </div>
                     </div>
@@ -206,7 +206,7 @@ function FAQ(){
                             </h2>
                         <div className={`accordion-collapse ${expanded5 ? 'show' : ''}`}>
                             <div className="accordion-body">
-                            Yes, our platform is fully mobile-responsive and you can also download our mobile <br/> app, allowing users to access and use it on their smartphones and tablets. This  <br/>makes it easy to practise for exams on the go, anytime, anywhere.
+                            Yes, our platform is fully mobile-responsive and you can also download our mobile  app, allowing users to access and use it on their smartphones and tablets. This  makes it easy to practise for exams on the go, anytime, anywhere.
                             </div>
                         </div>
                     </div>

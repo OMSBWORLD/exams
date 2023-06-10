@@ -73,7 +73,7 @@
     height: 40px;
     width: 120px;
     border: none;
-    margin-top: 20px;
+    margin-top: 0px;
  }
  ::placeholder{
     color: #5c5c5c;
@@ -81,19 +81,23 @@
  } 
  .contact-last-parent{
     width: 100%;
-    min-height: 50vh;
     display: flex;
     justify-content: center;
     align-items: center;
  }
  .contact-last{
     width: 80%;
-    min-height: 30vh;
+    height: 200px;
     display: flex;
     align-items: center;
     background: #000707;
     color: #ffffff;
  }
+ .contact-last h3{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
  .contact-last div{
     margin-left: 100px;
     line-height: 2;
@@ -137,6 +141,7 @@
     }
     .location{
         width: 40%;
+        max-width: 130px;
         display: flex;
         justify-content: space-between;
     }
@@ -171,24 +176,28 @@
         height: 40px;
         width: 120px;
         border: none;
-        margin-top: 20px;
+        margin-top: 0px;
      }
      ::placeholder{
         color: #5c5c5c;
      }
      .contact-last-parent{
         width: 100%;
-        min-height: 50vh;
         display: flex;
         justify-content: center;
         align-items: center;
      }
      .contact-last{
         width: 98%;
+        height: 150px;
         display: flex;
         align-items: center;
         background: #000707;
         color: #ffffff;
+     }
+     .contact-last h3{
+            font-size: 25px;
+            margin-bottom: 10px;
      }
      .contact-last div{
         margin: 20px;

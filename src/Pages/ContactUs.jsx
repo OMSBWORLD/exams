@@ -75,7 +75,7 @@ function ContactUs(){
                 <div className='contact-last'>
                     <div>
                         <h3>Need specific help?</h3>
-                        <p>Visit our frequently asked questions section here or make use our social media platforms<br/> to get in contact with us. Click on any of the social media icons to be redirected.</p>
+                        <p>Visit our frequently asked questions section here or make use our social media platforms to get in contact with us. Click on any of the social media icons to be redirected.</p>
                     </div>
                 </div>
             </div>

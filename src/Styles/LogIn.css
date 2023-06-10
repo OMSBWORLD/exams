@@ -142,6 +142,7 @@ label{
         position: absolute;
         right: 120px;
         margin-top: 20px;
+        display: none;
         
     }
 }
