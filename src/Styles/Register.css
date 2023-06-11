@@ -183,31 +183,35 @@
     .sign-two input{
         height: 30px;
         width: 80%;
+        max-width: 250px;
         outline: none;
         border: 1px solid  #E0E0E0;
         border-radius: 4px;
-        margin-bottom: 10px;
+        margin-bottom: 5px;
         font-size: 18px;
     }
     .sign-sub-one label{
         color: #00070F;
         font-family: 'Mulish', sans-serif;
-       
-        font-size: 15px;
+        font-size: 13px;
+        width: 55%;
     }
     .sign button{
         border-radius: 4px;
-        height: 50px;
-         width: 60%;
+        height: 40px;
+        width: 60%;
+        max-width: 250px;
     }
     .name, .password{
         display: flex;
         flex-direction: column;
         margin-left: 80px;
         width: 100%;
+       
     }
     .name input, .password input{
         width: 80%;
+        max-width: 250px;
     }
     .log-one{
         display: flex;
