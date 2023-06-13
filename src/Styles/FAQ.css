@@ -47,7 +47,7 @@
   
   .accordion-collapse.show {
     max-height: 200px; 
-    width: 665px;
+    width: 100%;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     display: flex;
     align-items: center;
@@ -177,6 +177,7 @@
         padding: 10px;
         cursor: pointer;
         transition: background-color 0.3s ease;
+     
       }
       
       .accordion-button{
@@ -191,6 +192,7 @@
         margin-left: 10px;
         padding-left: 10px;
         padding-right: 10px;
+      
       }
      
       .accordion-collapse {
@@ -202,14 +204,15 @@
       .accordion-collapse.show {
         max-height: 200px; 
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-        width: 480px;
+       
         display: flex;
         align-items: center;
         justify-content: center;
+        
       }
       
       .accordion-body {
-        padding: 10px;
+       
         width: 90%;
         font-size: 13px;
       }
