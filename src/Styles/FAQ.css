@@ -15,7 +15,7 @@
     margin-bottom: 20px; 
   }
   
-  .accordion-button {
+  .accordion-item{
     width: 100%;
     text-align: left;
     border: none;
@@ -25,11 +25,18 @@
   }
   .accordion-button{
     display: flex;
+    align-items: center;
     justify-content: space-between;
-    height: 40px;
+    height: 55px;
+    padding-left: 30px;
+    padding-right: 30px;
     color: #00070F;
     font-family: 'Mulish', sans-serif;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border: none;
+    border-radius: 4px;
+    height: 55px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background: #ffffff;
     font-size: 16px;
   }
   .accordion-collapse {
@@ -40,22 +47,28 @@
   
   .accordion-collapse.show {
     max-height: 200px; 
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 665px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   
   .accordion-body {
     padding: 10px;
-    
+    width: 95%;
+    height: 70px;
   }
   .new-one-parent{
     width: 100%;
+    height: 400px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
 .new-one{
-    width: 90%;
+    width: 95%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -137,7 +150,7 @@
     padding-left: 30px;
     padding-right: 30px;
     height: 40px;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; 
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .f-one p{
     color: #00070F;
@@ -150,15 +163,14 @@
     height: 80px;
     padding-left: 30px;
     padding-right: 30px;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 @media screen and (max-width: 780px) {
     .accordion-item {
-        margin-bottom: 20px; 
+        margin-bottom: 0px; 
       }
-      
-      .accordion-button {
+      .accordion-item{
         width: 100%;
         text-align: left;
         border: none;
@@ -170,11 +182,15 @@
       .accordion-button{
         display: flex;
         justify-content: space-between;
-        height: 40px;
         color: #00070F;
         font-family: 'Mulish', sans-serif;
-        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        border-radius: 4px;
+        height: 55px;
         font-size: 16px;
+        margin-left: 10px;
+        padding-left: 20px;
+        padding-right: 30px;
       }
      
       .accordion-collapse {
@@ -185,15 +201,20 @@
       
       .accordion-collapse.show {
         max-height: 200px; 
-        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        width: 480px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
       }
       
       .accordion-body {
         padding: 10px;
-        
+        width: 90%;
       }
       .new-one-parent{
         width: 100%;
+        height: 600px;
         display: flex;
         flex-direction: column;
         justify-content: center;
